@@ -1,0 +1,23 @@
+Options All -Indexes
+<IfModule mod_rewrite.c>
+ # Inicio URL Amigavel
+ RewriteEngine On
+ RewriteBase /Resources/public/
+ RewriteRule ^css/bootstrap\\.css$ http://localhost/css/bootstrap.css [L]
+ # RewriteCond %{REQUEST_URI} !.(css|gif|ico|jpg|js|png|swf|txt)$
+ RewriteRule ^Resources/public/index\.php$ - [L]
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ #RewriteCond %{REQUEST_URI} !\.(css|js)$ [NC]
+ RewriteRule . /Resources/public/index.php [L]
+ # Fim URL Amigavel
+ 
+ # Inicio home
+ RewriteRule (.*)$ [R=index.php,L]
+ # Fim home
+
+ # Inicio Bloqueia /App
+ RewriteRule App/(.*\.php)$ - [R=404,L]
+ RewriteRule App/(.*)$ [R=404,L]
+ # Fim Bloquia /App
+</IfModule>

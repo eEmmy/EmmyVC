@@ -1,7 +1,7 @@
 {
 	"name": "eemmy/emmyvc",
 	"description": "MVC framework similar to laravel",
-	"license": "GPL",
+	"license": "GPL-2.0-or-later",
 	"support": {
 		"issues": "https://github.com/eEmmy/EmmyVC/issues/",
 		"source": "https://github.com/eEmmy/EmmyVC/"

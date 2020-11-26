@@ -9,7 +9,7 @@ Um framework PHP para aplicações que seguem o padrão MVC. Muito semelhante ao
 ## Instalação
 **Composer**:
 ```
-composer create-project --prefer-dist
+composer create-project eemmy/emmyvc Blog
 ```
 **Git**:
 ```

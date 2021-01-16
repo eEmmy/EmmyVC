@@ -25,6 +25,3 @@ A documentação completa pode ser encontrada em [EmmyVC-Doc](https://github.com
 * [PHPMailer](https://github.com/PHPMailer/PHPMailer) - Para envio de emails.
 * [Minify](https://github.com/mrclay/minify/) - Para minificar arquivos CSS e JS.
 * [Simple-CRUD](https://github.com/eEmmy/Simple-CRUD) (autoral) - Para a criação de migrações e manipulação de querys MySQL.
-
-## Autore
-* **Emmy Gomes** - *Todo o desenvolvimento* - [eEmmy](https://github.com/eEmmy/)
